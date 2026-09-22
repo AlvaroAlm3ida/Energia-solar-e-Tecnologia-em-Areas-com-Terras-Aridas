@@ -1,0 +1,59 @@
+# === Credenciais e segredos ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*_secret*
+*credentials*
+config.ini
+secrets.json
+
+# === Ambientes virtuais / Python ===
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# === Jupyter / Notebooks ===
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.virtual_documents/
+**/.virtual_documents/
+
+# === Anaconda ===
+anaconda_projects/
+
+# === Dados (podem ser pesados, sensíveis ou regeráveis pelo pipeline) ===
+dados/
+Testes/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+
+# === Bancos de dados locais ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
